@@ -1,39 +1,10 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"Resistive touch sensor is used for longer time than capacitive touch sensor.","answers":{"a":"True","b":"False"},"correctAnswer":"a"},
+{"question":"The physical quantity that is measured by a touch sensor is","answers":{"a":"Pressure","b":"Volume","c":"Area","d":"Density"},"correctAnswer":"a"},
+{"question":"Smallest change which a sensor can detect is","answers":{"a":"Resolution","b":"Accuracy","c":"Precision","d":"Scale"},"correctAnswer":"a"},
+{"question":"The working of touch sensor is similar to","answers":{"a":"Magnetic switches","b":"Simple switches","c":"Limit switches","d":"Level switches"},"correctAnswer":"b"},
+{"question":"What factors will increase the capacitance of capacitive touch sensor?","answers":{"a":"If the area of electrode is larger and thickness of cover material is smaller.","b":"If the area of electrode is larger and thickness of cover material is larger.","c":"If the area of electrode is smaller and thickness of cover material is smaller.","d":"If the area of electrode is smaller and thickness of cover material is larger."},"correctAnswer":"a"},
+{"question":"Which material is enough to trigger the load in a capacitive touch sensor without any external force?","answers":{"a":"Dielectric material","b":"Semi conductive material","c":"Both a & b","d":"None of these"},"correctAnswer":"b"},
+{"question":"An insulator is applied with a conductive coating on which type of capacitive touch sensor?","answers":{"a":"Surface capacitive sensing","b":"Projected capacitive sensing","c":"Both a & b","d":"None of these"},"correctAnswer":"a"},
+{"question":"What is the use of IC in projected capacitive sensing?","answers":{"a":"To amplify conductivity","b":"To charge and monitor the grid","c":"To regulate resistance","d":"To discharge the grid"},"correctAnswer":"b"},
+{"question":"Which touch screen is coated with a transparent material?","answers":{"a":"Capacitive touch screen","b":"SAW","c":"Infrared","d":"Resistive touch screen"},"correctAnswer":"d"},
+{"question":"Other name for tactile sensor is","answers":{"a":"Pressure sensor","b":"Humidity sensor","c":"Touch sensor","d":"Temperature sensor"},"correctAnswer":"c"}]
