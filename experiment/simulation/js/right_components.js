@@ -13,28 +13,28 @@ close_btn.addEventListener('click', () => {
 });
 
 
-// Components Button Code
 
-const Second = document.getElementById('second');
-const Second_Data = document.getElementById('Second_Data')
-const btn_close = document.getElementById('btn_close');;
+const check_button = document.getElementById('check');
+const reset_button = document.getElementById('reset');
 
-Second.addEventListener('click', () => {
-    Second_Data.classList.toggle('visible')
-});
+const bread_but=document.getElementById("breadbutton");
+const supply_but=document.getElementById("supplybutton");
+const bjt_but=document.getElementById("bjtbutton");
+const led_but=document.getElementById("ledbutton");
 
-btn_close.addEventListener('click', () => {
-    Second_Data.classList.remove('visible')
-});
+const r1_but=document.getElementById("r1button");
+const r2_but=document.getElementById("r2button");
 
-
-
+const touch_but=document.getElementById("touchbutton");
 // Components hide show code here
 function breadboard() {
     var x = document.getElementById("board");
     x.style.visibility = "visible";
 
     var instance = new BoardController();
+
+    bread_but.disabled=true;
+   bread_but.style.cursor="not-allowed";
 
     instance.setJsPlumbInstance(jsPlumb);
     instance.initDefault();
@@ -259,18 +259,23 @@ function breadboard() {
         instance.addEndPoint(4.5, 'board', 'row8', 'r199', [0, 0, 0, 1, 842.5, 282.5], 'blue');
         instance.addEndPoint(4.5, 'board', 'row8', 'r200', [0, 0, 0, 1, 856, 282.5], 'blue');
     }
+    disabledButton();
 }
 
 function supply() {
     var x = document.getElementById("supply");
     x.style.visibility = "visible";
     
+    supply_but.disabled=true;
+    supply_but.style.cursor="not-allowed";
+
     var supply = new BoardController();
     supply.setJsPlumbInstance(jsPlumb);
     supply.setCircuitContainer('mid');
 
     supply.addEndPoint(8, 'supply', 'VCC', 'VCC', [0, 0, -1, 0, 40, 45], 'blue','red');
     supply.addEndPoint(8, 'supply', 'GND', 'GND', [0, 0, 1, 0, 80, 45], 'red','black');
+    disabledButton();
 }
 
 function r1(){
@@ -279,6 +284,10 @@ function r1(){
 
     var y= document.getElementById("r1_label");
     y.style.visibility = "visible";
+
+    r1_but.disabled=true;
+    r1_but.style.cursor="not-allowed";
+
     var r1 = new BoardController();
     r1.setJsPlumbInstance(jsPlumb);
     r1.setCircuitContainer('mid');
@@ -292,6 +301,7 @@ function r1(){
     r1.addEndPoint(4.5, 'r1', 'r1_B', 'r1_B02', [0, 0, 0, 1, 67.5, 35.5], 'red');
     r1.addEndPoint(4.5, 'r1', 'r1_B', 'r1_B03', [0, 0, 0, 1, 67.5, 49], 'red');
     r1.addEndPoint(4.5, 'r1', 'r1_B', 'r1_B04', [0, 0, 0, 1, 67.5, 62.5], 'red');
+    disabledButton();
 }
 
 function bjt(){
@@ -299,6 +309,9 @@ function bjt(){
     x.style.visibility = "visible";
     var y = document.getElementById("bjt_label");
     y.style.visibility = "visible";
+
+    bjt_but.disabled=true;
+    bjt_but.style.cursor="not-allowed";
 
     var bjt = new BoardController();
     bjt.setJsPlumbInstance(jsPlumb);
@@ -319,6 +332,8 @@ function bjt(){
     bjt.addEndPoint(4.5, 'bjt', 'bjt_E', 'bjt_E03', [0, 0, 0, 1, 31, 97], 'red');
     bjt.addEndPoint(4.5, 'bjt', 'bjt_E', 'bjt_E04', [0, 0, 0, 1, 31, 110.5], 'red');
 
+    disabledButton();
+
 }
 
 function r2(){
@@ -326,6 +341,9 @@ function r2(){
     x.style.visibility = "visible";
     var y= document.getElementById("r2_label");
     y.style.visibility = "visible";
+
+    r2_but.disabled=true;
+    r2_but.style.cursor="not-allowed";
     var r2 = new BoardController();
     r2.setJsPlumbInstance(jsPlumb);
     r2.setCircuitContainer('mid');
@@ -339,6 +357,8 @@ function r2(){
     r2.addEndPoint(4.5, 'r2', 'r2_B', 'r2_B02', [0, 0, 0, 1, 67.5, 35.5], 'red');
     r2.addEndPoint(4.5, 'r2', 'r2_B', 'r2_B03', [0, 0, 0, 1, 67.5, 49], 'red');
     r2.addEndPoint(4.5, 'r2', 'r2_B', 'r2_B04', [0, 0, 0, 1, 67.5, 62.5], 'red');
+
+    disabledButton();
 }
 
 function led() {
@@ -347,6 +367,8 @@ function led() {
     var y= document.getElementById("led_label");
     y.style.visibility = "visible";
   
+    led_but.disabled=true;
+    led_but.style.cursor="not-allowed";
 
     var led = new BoardController();
     led.setJsPlumbInstance(jsPlumb);
@@ -363,11 +385,16 @@ function led() {
     led.addEndPoint(4.5, 'led', 'led_C', 'led_C03', [0, 0, 1, 0, 23.5, 104], 'red');
     led.addEndPoint(4.5, 'led', 'led_C', 'led_C04', [0, 0, 1, 0, 23.5, 118.5], 'red');
     led.addEndPoint(4.5, 'led', 'led_C', 'led_C05', [0, 0, 1, 0, 23.5, 132], 'red');
+
+    disabledButton();
 }
 
 function touch(){
     var x = document.getElementById("touch");
     x.style.visibility = "visible";
+
+    touch_but.disabled=true;
+    touch_but.style.cursor="not-allowed";
 
     var touch = new BoardController();
     touch.setJsPlumbInstance(jsPlumb);
@@ -376,4 +403,25 @@ function touch(){
     touch.addEndPoint(4.5, 'touch', 'touch_A', 'touch_A', [0, 0, 0, 1, 15, 60], 'red');
     touch.addEndPoint(4.5, 'touch', 'touch_B', 'touch_B', [0, 0, 0, 1, 45, 60], 'red');
 
+    disabledButton();
+
+}
+
+function disabledButton()
+{
+
+    if(reset_button.disabled)
+    {
+        reset_button.disabled=false;
+    }
+
+  if(window.getComputedStyle(document.getElementById('board')).visibility === "visible" && window.getComputedStyle(document.getElementById('r1')).visibility === "visible" && 
+   window.getComputedStyle(document.getElementById('led')).visibility === "visible" && window.getComputedStyle(document.getElementById('supply')).visibility === "visible" && 
+  window.getComputedStyle(document.getElementById('touch')).visibility === "visible" && window.getComputedStyle(document.getElementById('r2')).visibility === "visible" && window.getComputedStyle(document.getElementById('bjt')).visibility === "visible" )
+  {
+  check_button.disabled=false;
+
+  
+   
+  }
 }
