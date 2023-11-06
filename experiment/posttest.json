@@ -1,39 +1,10 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"Which touch screen is used for industrial purpose?","answers":{"a":"Resistive touch screen","b":"Capacitive touch screen","c":"Surface Acoustive Wave","d":"Infrared"},"correctAnswer":"b"},
+{"question":"Which touch screen offers 75% clarity?","answers":{"a":"Resistive touch screen","b":"Capacitive touch screen","c":"Surface Acoustive Wave","d":"Infrared"},"correctAnswer":"a"},
+{"question":"Which sensor is used in mobile phones?","answers":{"a":"Capacitive touch sensor","b":"Humidity sensor","c":"Weight sensor","d":"Temperature sensor"},"correctAnswer":"a"},
+{"question":"In 5- wire touch sensor, the top layer acts as","answers":{"a":"Voltage measuring probe","b":"Voltage divider probe","c":"Voltage varying probe","d":"Voltage controlling probe"},"correctAnswer":"a"},
+{"question":"Which type of touch sensor act as near proximity sensor?","answers":{"a":"Resistive touch sensor","b":"Capacitive touch sensor","c":"Surface capacitive touch sensor","d":"Projected capacitive touch sensor"},"correctAnswer":"d"},
+{"question":"Which of these is not an advantage of touch sensor?","answers":{"a":"In direct sunlight it is more efficient.","b":"It avoids external devices.","c":"Simple interface.","d":"Easy to clean."},"correctAnswer":"a"},
+{"question":"Which physical quantity is tracked in capacitive touch sensor?","answers":{"a":"Electrostatic Charge","b":"Electrostatic Field","c":"Magnetostatic Field","d":"Magnetic Poles"},"correctAnswer":"b"},
+{"question":"Sensitivity of a sensor can be depicted by","answers":{"a":"Nyquist plot","b":"Pole- zero plot","c":"Bode plot","d":"None of the mentioned"},"correctAnswer":"c"},
+{"question":"Which touch sensor can support multi touch technology?","answers":{"a":"Capacitive touch sensor","b":"Resistive touch sensor","c":"Infrared touchscreen technology","d":"Multi-touch technology"},"correctAnswer":"a"},
+{"question":"Which resistive touch sensor is most durable?","answers":{"a":"2-wire resistive touch sensor","b":"4-wire resistive touch sensor","c":"5-wire resistive touch sensor","d":"8-wire resistive touch sensor"},"correctAnswer":"c"}]

@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### To design a Touch sensor circuit using Bipolar Junction Transistor (BJT)
