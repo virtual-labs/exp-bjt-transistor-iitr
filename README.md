@@ -4,7 +4,7 @@
 <b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
 <b> Lab | <b> Analog and Digital Electronics-II
-<b> Experiment|     <b>5. Bistable Multivibrator using 555-Timer IC
+<b> Experiment|     <b>4. Bistable Multivibrator using 555-Timer IC
 
 ### About the Experiment 
 
