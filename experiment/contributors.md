@@ -5,7 +5,7 @@
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | Prof. RS Anand | anandfee@gmail.com | IIT Roorkee | Professor |
 
-### Person Associated in the Lab Developement
+### Person Associated in the Lab Development
 | SNo. | Name | Email | Institute | Position |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | Rajeev Kumar | rajeevkumar.rke@gmail.com | IIT Roorkee | Senior Research Fellow |
