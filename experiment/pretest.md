@@ -38,10 +38,10 @@ D  Level switches
   
 Q5. What factors will increase the capacitance of capacitive touch sensor?
 
-<b>A  If the area of electrode is larger and thickness of cover material is smaller.</b>  
-B  If the area of electrode is larger and thickness of cover material is larger.  
-C  If the area of electrode is smaller and thickness of cover material is smaller.  
-D  If the area of electrode is smaller and thickness of cover material is larger.  
+<b>A  If the area of electrode is larger and thickness of cover material is smaller</b>  
+B  If the area of electrode is larger and thickness of cover material is larger  
+C  If the area of electrode is smaller and thickness of cover material is smaller  
+D  If the area of electrode is smaller and thickness of cover material is larger  
 <br>
   
   
