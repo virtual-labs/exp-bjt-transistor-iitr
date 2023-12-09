@@ -3,7 +3,7 @@
 {"question":"Which sensor is used in mobile phones?","answers":{"a":"Capacitive touch sensor","b":"Humidity sensor","c":"Weight sensor","d":"Temperature sensor"},"correctAnswer":"a"},
 {"question":"In 5- wire touch sensor, the top layer acts as","answers":{"a":"Voltage measuring probe","b":"Voltage divider probe","c":"Voltage varying probe","d":"Voltage controlling probe"},"correctAnswer":"a"},
 {"question":"Which type of touch sensor act as near proximity sensor?","answers":{"a":"Resistive touch sensor","b":"Capacitive touch sensor","c":"Surface capacitive touch sensor","d":"Projected capacitive touch sensor"},"correctAnswer":"d"},
-{"question":"Which of these is not an advantage of touch sensor?","answers":{"a":"In direct sunlight it is more efficient.","b":"It avoids external devices.","c":"Simple interface.","d":"Easy to clean."},"correctAnswer":"a"},
+{"question":"Which of these is not an advantage of touch sensor?","answers":{"a":"In direct sunlight it is more efficient","b":"It avoids external devices","c":"Simple interface","d":"Easy to clean"},"correctAnswer":"a"},
 {"question":"Which physical quantity is tracked in capacitive touch sensor?","answers":{"a":"Electrostatic Charge","b":"Electrostatic Field","c":"Magnetostatic Field","d":"Magnetic Poles"},"correctAnswer":"b"},
 {"question":"Sensitivity of a sensor can be depicted by","answers":{"a":"Nyquist plot","b":"Pole- zero plot","c":"Bode plot","d":"None of the mentioned"},"correctAnswer":"c"},
 {"question":"Which touch sensor can support multi touch technology?","answers":{"a":"Capacitive touch sensor","b":"Resistive touch sensor","c":"Infrared touchscreen technology","d":"Multi-touch technology"},"correctAnswer":"a"},
