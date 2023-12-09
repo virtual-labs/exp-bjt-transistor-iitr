@@ -49,10 +49,10 @@ C     Surface capacitive touch sensor
 
 Q6. Which of these is not an advantage of touch sensor?
 
-<b>A     In direct sunlight it is more efficient.</b>  
-B     It avoids external devices.  
-C     Simple interface.  
-D     Easy to clean.  
+<b>A     In direct sunlight it is more efficient</b>  
+B     It avoids external device  
+C     Simple interface  
+D     Easy to clean  
 <br>
   
 
