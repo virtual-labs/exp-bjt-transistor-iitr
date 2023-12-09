@@ -21,7 +21,7 @@ D  Density
 Q3. Smallest change which a sensor can detect is
 
 <b>A  Resolution</b>  
-B  Accuracy.  
+B  Accuracy  
 C  Precision  
 D  Scale  
 <br>
