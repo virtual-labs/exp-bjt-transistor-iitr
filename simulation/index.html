@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To design a touch sensor circuit using BJT transistor</title>
+
+    <!--JSplumb-->
+    <link rel="stylesheet" href="css\jsplumbtoolkit-defaults.css">
+    <script src="js\jsplumb.min.js"></script>
+
+    <script src="js\jquery-latest.js"></script>
+    <script src="js\jquery-ui-latest.js"></script>
+    <script src="js\jquery.jsPlumb-1.3.9-all-min.js"></script>
+
+
+    <!--jQuery-->
+    <script src="js\jquery.min.js"></script>
+
+    <!--JS files-->
+    <script src="js/index.js"></script>
+    <script src="js/graph.js"></script>
+
+    <!--CSS files-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   
+    <div id="exp-name">
+        <h3>To design a touch sensor circuit using BJT transistor</h3>
+    </div>
+    <div id="simulation">
+        <div class="left">
+
+            <div id="mid">
+
+                <br/>
+
+                <div id="supply"></div>
+                <div id="touch" onmouseover="touched()" onmouseout="untouched()"></div>
+
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+
+                <div id="board">
+                    <div id="r1"></div>                    
+                    <div id="bjt"></div>
+                    <div id="r2"></div>
+                    <div id="led"></div> 
+                    <div id="r1_label">A&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspC</div>                   
+                    <div id="bjt_label">C B E</div>
+                    <div id="r2_label">A&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspC</div>
+                    <div id="led_label">A C</div>
+                </div>
+
+            </div>
+            <div class="bottom">
+                <div>
+                    <button id="check" onclick="checkCircuit()" disabled >Check Connections</button>
+                    <button id="reset" onclick="reload()" disabled>Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div>
+                <button class="right_btn" id="First">Instructions</button>
+                <div class="Button-data" id="First_Data">
+                    <div class="panel">
+                        <button class="close-btn" id="close-btn"><span>&#10005</span></button>
+                        <ol type="1" style="padding: 10px;">
+                            <li>Click on the components button to place the component.</li>
+                            <li>Make connections as per the circuit diagram.</li>
+                            <figure>
+                                <img src="./images/Fig. 3.png" style="height: 300px;margin-left:50px;">
+                                <figcaption style="text-align:center;">Fig. 1 Circuit Diagram of touch sensor</figcaption>
+                              </figure><br/>
+                            <li>Click on <b>Check Connections</b> button. If connections are right, click on ‘OK’, then Simulation will become active. </li>
+                            <li>Touch the <b>Sensor</b> by using mouse pointer and observe its output.</li>
+                            <li>Click on the <b>Reset</b> button to reset the page.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="Components">
+                <button class="right_btn" id="second">Components</button>
+                <div style="margin-top: 25px;">
+                    <button class="comp-btn" id="breadbutton" onclick="breadboard()">Breadboard</button>
+                    <button class="comp-btn" id="supplybutton" onclick="supply()">Supply</button>
+                </div>
+                <div>
+                    <button class="comp-btn" id="r1button"  onclick="r1()">R 220&#8486;</button>
+                    <button class="comp-btn" id="r2button" onclick="r2()">R 270&#8486;</button>
+                </div>
+                <div>
+                    <button class="comp-btn" id="bjtbutton" onclick="bjt()">BC 547</button>
+                    <button class="comp-btn" id="ledbutton" onclick="led()">LED</button>
+                    <div></div>
+                </div>
+                <div>
+                    <button class="comp-btn" id="touchbutton" onclick="touch()">Touch Sensor</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="copyright">
+        <p style="font-weight:bold">&copy; Copyright 2022 Virtual Labs, IIT Roorkee</p>
+    </div>
+    <script src="js/right_components.js"></script>
+    <script src="js/TABLE.JS"></script>
+<script src="../assets/js/iframeResize.js"></script></body>
+
+</html>

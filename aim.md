@@ -1,0 +1,1 @@
+#### To design a Touch sensor circuit using Bipolar Junction Transistor (BJT)
